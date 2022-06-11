@@ -1,0 +1,144 @@
+:root{
+    --primary-color: #e50914;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    background: black;
+    color: #999;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+
+h1, h2, h3{
+    color: white;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    max-width: 32rem;
+}
+
+h2{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.625rem;
+    font-weight: normal;
+    font-kerning: normal;
+}
+
+h3{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-kerning: normal;
+}
+
+
+
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 75px 200px #000000, inset 0px -75px 200px #000000;
+}
+
+
+/* Netflix logo */
+.showcase-top img{
+    width: 170px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: -13.1rem;
+    z-index: 2;
+}
+
+.showcase-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 13rem;
+    z-index: 2;
+}
+
+
+.email-form{
+    align-items: center;
+}
+
+
+/* Email address*/
+input{
+    width: 45%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    margin-right: 10rem;
+    padding: 23px 15px;
+    border: none;
+    align-items: center;
+    
+}
+
+/* Get Started button */
+.btn-danger{
+    background: var(--primary-color);
+    font-size: 1.5rem;
+    color: white;
+    padding: 13px 26px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 38.5rem;
+    margin-right: 1.3rem;
+}
+    
+/* Sign In button */
+.btn-rounded{
+    background: var(--primary-color);
+    color: white;
+    padding: 0.52rem 1.1rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 76rem;
+    margin-top: -11.1rem;
+    z-index: 2;
+}
+
+/* English button dropdown*/
+.btn-outline{
+    outline: 1px solid;
+    border-radius: 1px;
+    color: white;
+    padding: 0.55rem 0.42rem;
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    margin-top: -11.1rem;
+    margin-left: 68.3rem;
+    text-decoration: none;
+    z-index: 2;
+    
+}
+
